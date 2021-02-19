@@ -6,9 +6,4 @@ $(document).ready(function(){
       item.style.width = item.dataset.percent + "%";
     }
   })
-
-
-
-
-
 })
