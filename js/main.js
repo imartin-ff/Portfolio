@@ -6,4 +6,11 @@ $(document).ready(function(){
       item.style.width = item.dataset.percent + "%";
     }
   })
+
+  var menuBtn = $("#menu-btn");
+
+  menuBtn.click(function(){
+    $(".menu").toggleClass("menu--active");
+    $(".menu-wrapper").toggleClass("menu-wrapper--active");
+  })
 })
