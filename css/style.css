@@ -486,4 +486,7 @@ a {
   .services__items {
     align-items: flex-start;
   }
+  .services__item:first-child{
+    padding-top: 5px;
+  }
 }
