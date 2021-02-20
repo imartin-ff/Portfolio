@@ -170,7 +170,11 @@ color: #FFD02B;
   animation-iteration-count: infinite;
 }
 
-
+ @media(max-width: 945px){
+  .menu{
+    position: absolute;
+  }
+ }
 @media (max-width: 768px) {
   .header__inner-title {
     font-size: 38px;
