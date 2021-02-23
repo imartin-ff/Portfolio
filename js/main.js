@@ -25,4 +25,9 @@ $(document).ready(function(){
     });
   });
 
+  var element = $('.back-to-top');
+    $(window).scroll(function(){
+        element['fade'+ ($(this).scrollTop() > 1000 ? 'In': 'Out')](500);
+    });
+
 })
